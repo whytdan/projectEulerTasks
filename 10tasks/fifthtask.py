@@ -5,9 +5,10 @@ def is_divisible(n):
     return True
 
 
-n = 2520
-while True:
-    if is_divisible(n):
-        print(n)
-        break
-    n+=20
+def smallest_multiple(n):
+    while True:
+        if is_divisible(n):
+            return n
+            break
+        n+=20
+
